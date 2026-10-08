@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>WebTransitions</title>
+  <subtitle>Supporting transitional change on the web platform and in browsers with funding, coordination and development.</subtitle>
+  <link href="https://staging.webtransitions.org/feed/feed.xml" rel="self" />
+  <link href="https://staging.webtransitions.org/" />
+  <updated>2026-10-07T00:00:00Z</updated>
+  <id>https://staging.webtransitions.org/</id>
+  <author>
+    <name>Dietrich Ayala</name>
+  </author>
+  <entry>
+    <title>Hello from the new site</title>
+    <link href="https://staging.webtransitions.org/hello-from-the-new-site/" />
+    <updated>2026-10-07T00:00:00Z</updated>
+    <id>https://staging.webtransitions.org/hello-from-the-new-site/</id>
+    <content type="html">&lt;p&gt;This site is now built with &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Two things changed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Posts live at the root of the domain.&lt;/strong&gt; A post written as &lt;code&gt;content/my-post/index.md&lt;/code&gt; is published at &lt;code&gt;https://webtransitions.org/my-post/&lt;/code&gt;; images placed beside &lt;code&gt;index.md&lt;/code&gt; are served from that same URL directory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syndication on the AT Protocol&lt;/strong&gt; via the &lt;a href=&quot;https://standard.site&quot;&gt;standard.site&lt;/a&gt; lexicons, so what gets published here can be followed in atproto clients.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This post is a &lt;code&gt;draft&lt;/code&gt; — it won&#39;t be published until &lt;code&gt;draft: false&lt;/code&gt; (or the key is removed) in its front matter.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
